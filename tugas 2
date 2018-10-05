@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+    int x;
+    cout<<"tekanan darah anda : ";
+    cin>>x;
+    
+    if  (x>120)
+    {
+cout<<"tekanan darah anda terlalu tinggi";
+}
+else if (x<90)
+{
+    cout<<"tekanan darah anda terlalu rendah";
+}
+    else
+    {
+
+    cout<<"tekanan darah anda normal";
+    }
+    return 0;
+    
+}
+
+	
